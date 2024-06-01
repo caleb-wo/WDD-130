@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 #content {
-    max-width: 800px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #3D3522;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero_msg h1 {
@@ -31,6 +34,13 @@ main section {
 
 body {
     background-color: #52B2CF; 
+    font-family: 'Monterrat', Tahoma;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #3D3522;
@@ -43,11 +53,19 @@ nav a:hover {
     background-color: white; 
     color: #3D3522;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: #C4F4C7;
     color: #3D3522; 
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #3D3522; 
@@ -62,14 +80,20 @@ nav a:hover {
 }
 #msg {
     background-color: #52B2CF; 
+    padding: 35px;
 }
 footer {
     background-color: #3D3522; 
     color: #3D3522;
+    padding: 25px 50px;
+    margin-top: 50px;
 }
 
 .home-title {
     color: #3D3522;
+    font-family: 'Josefin Sans', Verdana;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #3D3522;
@@ -79,6 +103,9 @@ h4 {
 }
 .msg p {
     color: #3D3522;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #3D3522;
@@ -97,11 +124,37 @@ footer p a:hover {
     width: 80px;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
 }
+
+#Logo-Link {
+    padding-top: 5px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #3D3522;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+main section img {
+    box-sizing: border-box;
+}
+
 
