@@ -172,7 +172,7 @@ footer .social img {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .card-img, .mountains {
