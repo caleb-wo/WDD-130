@@ -106,15 +106,16 @@ nav a:hover {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
+    box-shadow: 5px 5px 10px #C4F4C7;
 }
 footer {
     background-color: #3D3522; 
     color: #C4F4C7;
     padding: 25px 50px;
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .home-title {
@@ -200,7 +201,13 @@ footer .social img {
     grid-row: 2/3;
 }
 .card-img {
-    border: 10px solid #3D3522;
+    border: 10px solid #C4F4C7;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3D3522;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 .rapids-card {
     margin: 200px 0;
@@ -211,6 +218,7 @@ footer .social img {
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
+    box-shadow: 5px 5px 10px #C4F4C7;
 }
 
 main section img {
