@@ -7,11 +7,9 @@
 
 nav a {
     text-align: center;
-    color: #52B2CF;
+    color: #3D3522;
     text-decoration: none;
     padding: 35px;
-    display: flex;
-    justify-content: space-around;
 }
 
 #hero {
@@ -28,23 +26,19 @@ nav a {
 
 #hero_msg h1 {
     text-align: center;
-    color: azure;
 }
 
 #hero_msg h4 {
     text-align: center;
-    color: azure;
     
 }
 
 .button-box {
     text-align: center;
-    color: azure;
 }
 
 main section {
     text-align: center;
-    color: azure;
 }
 
 #background {
@@ -57,16 +51,20 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    color: azure;
 }
 h2 {
     margin: 0;
 }
 header {
-    background-color: #3D3522;
+    background-color: #52B2CF;
     display: grid;
     grid-template-columns: 150px auto;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a:hover {
     background-color: #C4F4C7; 
     color: #3D3522;
@@ -201,8 +199,6 @@ footer .social img {
 }
 .card-img {
     border: 10px solid #3D3522;
-    grid-column: ;
-    grid-row: ;
 }
 .rapids-card {
     margin: 200px 0;
@@ -218,3 +214,5 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
+
+
