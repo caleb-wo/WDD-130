@@ -56,7 +56,7 @@ h2 {
     margin: 0;
 }
 header {
-    background-color: #52B2CF;
+    background-color: #3D3522;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -135,11 +135,11 @@ h4 {
     padding-bottom: 15px;
 }
 footer a {
-    color: #3D3522;
+    color: #C4F4C7;
     text-decoration: none;
 }
 footer a:hover {
-    color: #3D3522;
+    color: #52B2CF;
 }
 footer p {
     font-size: 1.2em;
@@ -172,7 +172,7 @@ footer .social img {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .card-img, .mountains {
