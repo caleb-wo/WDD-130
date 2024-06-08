@@ -56,7 +56,7 @@ h2 {
     margin: 0;
 }
 header {
-    background-color: #3D3522;
+    background-color: #52B2CF;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -107,8 +107,8 @@ nav a:hover {
     grid-row: 6/7;
 }
 footer {
-    background-color: #52B2CF; 
-    color: #3D3522;
+    background-color: #3D3522; 
+    color: #C4F4C7;
     padding: 25px 50px;
     margin-top: 50px;
     display: flex;
