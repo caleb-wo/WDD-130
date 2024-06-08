@@ -7,7 +7,7 @@
 
 nav a {
     text-align: center;
-    color: #3D3522;
+    color: #52B2CF;
     text-decoration: none;
     padding: 35px;
     display: flex;
@@ -120,13 +120,13 @@ footer {
     margin-top: 10px;
 }
 h4 {
-    color: #3D3522;
+    color: #C4F4C7;
 }
 .msg h2 {
-    color: #3D3522;
+    color: #C4F4C7;
 }
 .msg p {
-    color: #3D3522;
+    color: #C4F4C7;
     font-size: .8em;
     line-height: 1.5em;
     padding-bottom: 15px;
@@ -213,3 +213,5 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
+
+
