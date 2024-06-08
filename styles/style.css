@@ -63,6 +63,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: #3D3522;
 }
 
 nav a:hover {
@@ -112,6 +113,7 @@ footer {
     padding: 25px 50px;
     margin-top: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
