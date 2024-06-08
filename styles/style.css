@@ -162,11 +162,11 @@ footer .social img {
 }
 
 #hero-img {
-    width: 1600px;
+    width: 100%;
 }
 
 #hero-box {
-    width: 1600px
+
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
