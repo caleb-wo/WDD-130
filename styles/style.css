@@ -7,7 +7,7 @@
 
 nav a {
     text-align: center;
-    color: #3D3522;
+    color: #C4F4C7;
     text-decoration: none;
     padding: 35px;
 }
@@ -112,10 +112,9 @@ footer {
     color: #C4F4C7;
     padding: 25px 50px;
     margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1;
 }
 
 .home-title {
@@ -186,6 +185,7 @@ footer .social img {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    background-color: #3D3522;
 }
 
 
