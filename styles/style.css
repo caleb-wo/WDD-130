@@ -28,19 +28,23 @@ nav a {
 
 #hero_msg h1 {
     text-align: center;
+    color: azure;
 }
 
 #hero_msg h4 {
     text-align: center;
+    color: azure;
     
 }
 
 .button-box {
     text-align: center;
+    color: azure;
 }
 
 main section {
     text-align: center;
+    color: azure;
 }
 
 #background {
@@ -53,6 +57,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    color: azure;
 }
 h2 {
     margin: 0;
@@ -213,5 +218,3 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
-
-
