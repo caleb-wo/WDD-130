@@ -70,8 +70,8 @@ nav a:hover {
     color: #3D3522;
 }
 .book {
-    background-color: white; 
-    color: #3D3522;
+    background-color: #3D3522; 
+    color: #52B2CF;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -79,8 +79,8 @@ nav a:hover {
     border-radius: 5px;
 }
 .join {
-    background-color: #C4F4C7;
-    color: #3D3522; 
+    background-color: #3D3522;
+    color: #C4F4C7; 
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -88,7 +88,7 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hover {
-    background-color: #3D3522; 
+    background-color: #C4F4C7; 
     color: #3D3522;
 }
 .join:hover {
@@ -117,7 +117,7 @@ footer {
 }
 
 .home-title {
-    color: #3D3522;
+    color: #C4F4C7;
     font-family: 'Josefin Sans', Verdana;
     font-size: 2em;
     margin-top: 10px;
@@ -126,10 +126,10 @@ h4 {
     color: #C4F4C7;
 }
 .msg h2 {
-    color: #C4F4C7;
+    color: #3D3522;
 }
 .msg p {
-    color: #C4F4C7;
+    color: #3D3522;
     font-size: .8em;
     line-height: 1.5em;
     padding-bottom: 15px;
@@ -172,7 +172,7 @@ footer .social img {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
 }
 
 .card-img, .mountains {
