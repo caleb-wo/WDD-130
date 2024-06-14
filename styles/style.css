@@ -63,6 +63,7 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: #3D3522;
+    opacity: .5;
 }
 
 nav a:hover {
@@ -223,5 +224,3 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
-
-
