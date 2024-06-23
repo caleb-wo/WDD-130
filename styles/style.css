@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -242,10 +240,10 @@ main section img {
 #salmon {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
+    flex-flow: flex-start;
     width: 100%;
-    margin-bottom: 50px;
-    padding: 5px;
     background-color: #C4F4C7;
 }
 
@@ -259,12 +257,11 @@ main section img {
 
 #deso {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
+    flex-flow: flex-end;
     width: 100%;
-    margin-bottom: 50px;
-    padding: 5px;
     background-color: #C4F4C7;
 }
 
@@ -280,10 +277,10 @@ main section img {
 #grand {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
+    flex-flow: flex-start;
     width: 100%;
-    margin-bottom: 50px;
-    padding: 5px;
     background-color: #C4F4C7;
 }
 
@@ -294,7 +291,3 @@ main section img {
 #grand-img {
     background-color: #C4F4C7;
 }
-
-
-
-
