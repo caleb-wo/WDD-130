@@ -232,6 +232,13 @@ main section img {
     color:#3D3522;
 }
 
+#rivers-title {
+    width: 100%;
+    height: 50px;
+    color: #3D3522;
+    background-color: #52B2CF;
+}
+
 #salmon {
     display: flex;
     flex-direction: row;
@@ -247,6 +254,12 @@ main section img {
 
 #salmon-img {
     background-color: #C4F4C7;
+}
+
+.whitespace {
+    width: 100%;
+    height: 50px;
+    background-color: #52B2CF;
 }
 
 #deso {
