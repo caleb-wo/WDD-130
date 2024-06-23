@@ -259,6 +259,7 @@ main section img {
 #deso {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
     margin-bottom: 50px;
@@ -289,3 +290,7 @@ main section img {
 #grand-img {
     background-color: #C4F4C7;
 }
+
+
+
+
