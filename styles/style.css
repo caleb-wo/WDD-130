@@ -225,4 +225,57 @@ main section img {
     box-sizing: border-box;
 }
 
+/* Rivers webpage - Site 2 */
 
+.rivers-heading {
+    font-weight: bold;
+    color:#3D3522;
+}
+
+#salmon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#salmon-p {
+    grid-column: 1/2;
+    background-color: #C4F4C7;
+    color: #3D3522;
+}
+
+#salmon-img {
+    grid-column: 2/3;
+    background-color: #C4F4C7;
+}
+
+#deso {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#deso-img {
+    grid-column: 2/3;
+    background-color: #C4F4C7;
+}
+
+#deso-p {
+    grid-column: 1/2;
+    background-color: #C4F4C7;
+    color: #3D3522;
+}
+
+#grand {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#grand-p {
+    grid-column: 1/2;
+    background-color: #C4F4C7;
+    color: #3D3522;
+}
+
+#grand-img {
+    grid-column: 2/3;
+    background-color: #C4F4C7;
+}
