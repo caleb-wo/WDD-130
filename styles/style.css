@@ -245,6 +245,7 @@ main section img {
     flex-wrap: nowrap;
     align-items: center;
     flex-flow: flex-start;
+    width: 100%;
     background-color: #C4F4C7;
 }
 
@@ -268,6 +269,7 @@ main section img {
     flex-wrap: nowrap;
     align-items: center;
     flex-flow: flex-end;
+    width: 100%;
     background-color: #C4F4C7;
 }
 
@@ -286,6 +288,7 @@ main section img {
     flex-wrap: nowrap;
     align-items: center;
     flex-flow: flex-start;
+    width: 100%;
     background-color: #C4F4C7;
 }
 
