@@ -245,6 +245,7 @@ main section img {
     align-items: center;
     width: 100%;
     margin-bottom: 50px;
+    padding: 5px;
     background-color: #C4F4C7;
 }
 
@@ -263,6 +264,7 @@ main section img {
     align-items: center;
     width: 100%;
     margin-bottom: 50px;
+    padding: 5px;
     background-color: #C4F4C7;
 }
 
@@ -280,6 +282,8 @@ main section img {
     flex-direction: row;
     align-items: center;
     width: 100%;
+    margin-bottom: 50px;
+    padding: 5px;
     background-color: #C4F4C7;
 }
 
