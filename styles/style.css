@@ -225,6 +225,12 @@ main section img {
 
 /* Rivers webpage - Site 2 */
 
+#flex-container {
+    display: grid;
+    grid-template-columns: 1(auto);
+    grid-template-rows: 3(auto);
+}
+
 .rivers-heading {
     font-weight: bold;
     color:#3D3522;
@@ -291,3 +297,5 @@ main section img {
 #grand-img {
     background-color: #C4F4C7;
 }
+
+/* Contact Us - Site 3 */
