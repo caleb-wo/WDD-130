@@ -244,6 +244,7 @@ main section img {
 }
 
 #salmon {
+    grid-row: 1/2;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -262,6 +263,7 @@ main section img {
 }
 
 #deso {
+    grid-row: 2/3;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -281,6 +283,7 @@ main section img {
 }
 
 #grand {
+    grid-row: 3/4;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
