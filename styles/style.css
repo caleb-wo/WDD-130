@@ -1,3 +1,16 @@
+:root {
+    --heading-font: Tahoma;
+    --paragraph-font: Verdana, Arial;
+}
+
+.title {
+    font-family: var(--heading-font);
+}
+
+.text {
+    font-family: var(--paragraph-font);
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
