@@ -275,7 +275,7 @@ main section img {
     background-color: #C4F4C7;
 }
 
-#deso {
+/* #deso {
     grid-row: 2/3;
     display: flex;
     flex-direction: row;
@@ -283,6 +283,17 @@ main section img {
     align-items: center;
     flex-flow: flex-end;
     width: 100%;
+    background-color: #C4F4C7;
+} */
+
+#deso {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 340;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
     background-color: #C4F4C7;
 }
 
@@ -295,7 +306,7 @@ main section img {
     color: #3D3522;
 }
 
-#grand {
+/* #grand {
     grid-row: 3/4;
     display: flex;
     flex-direction: row;
@@ -303,6 +314,17 @@ main section img {
     align-items: center;
     flex-flow: flex-start;
     width: 100%;
+    background-color: #C4F4C7;
+} */
+
+#grand {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 340;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
     background-color: #C4F4C7;
 }
 
