@@ -330,10 +330,10 @@ main section img {
 
 #grand-p {
     color: #3D3522;
+    grid-template-columns: 1/2;
 }
 
 #grand-img {
     background-color: #C4F4C7;
+    grid-template-columns: 2/3;
 }
-
-/* Contact Us - Site 3 */
